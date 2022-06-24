@@ -1,6 +1,5 @@
 import urllib.request
 import re
-import ast
 import read_menu
 
 
@@ -32,4 +31,3 @@ def collect_menu_recipes():
     return recipes
 
 
-print(collect_menu_recipes())
