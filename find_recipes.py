@@ -13,7 +13,7 @@ def open_allrecipes(menu_item):
 
 
 def open_recipe_from_search_page(data):
-    search_for_string = 'class="card__titleLink manual-link-behavior elementFont__title margin-8-bottom"'
+
     the_url_should_be_in_here = re.compile(r'<a class="card__titleLink manual-link-behavior elementFont__titleLink '
                                            r'margin-8-bottom"\n\s*.*\n\s*href=(.*)\n[^>]*')
     url = re.search(the_url_should_be_in_here, data)
